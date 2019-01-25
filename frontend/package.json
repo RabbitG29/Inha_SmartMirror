@@ -1,0 +1,37 @@
+{
+  "name": "BlackMirror",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.12",
+    "@fortawesome/free-solid-svg-icons": "^5.6.3",
+    "@fortawesome/vue-fontawesome": "^0.1.5",
+    "i": "^0.3.6",
+    "nodes-ui": "^1.20.4",
+    "npm": "^6.7.0",
+    "npm-cli": "^0.1.0",
+    "socket.io": "^2.2.0",
+    "vue": "^2.5.21",
+    "vue-router": "^3.0.1",
+    "vue-socket.io": "^3.0.4",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^3.3.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
